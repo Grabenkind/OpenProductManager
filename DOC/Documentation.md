@@ -1,5 +1,5 @@
 # Documentation
-1. First Steps
+## First Steps
 
 # First Steps
 Open OPM.py to run Open Product Manager.  
