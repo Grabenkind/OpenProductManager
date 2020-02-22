@@ -35,3 +35,10 @@ Now the product management menu should be open. *(Image 3)*
 
 ![Image 3](IMG/3.png)  
 *Image 3: Product Management Menu opens*  
+
+to add a product, enter "add" (without quotation marks) and confirm with the Enter key.  
+Now you are asked to enter the properties of the product.  
+
+
+![Image 4](IMG/4.png)  
+*Image 4: Enter product information*  
