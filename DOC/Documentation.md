@@ -12,7 +12,7 @@ The user name must be entered here and can be confirmed with the Enter key.
 Now you are asked to enter a password.  
 *By default the password is !root*
 
-If the login was successful, you should now see the main menu.  
+If the login was successful, you should now see the main menu. (Image 2)  
 
 ![Iamge 2](IMG/2.png)
 *Image 2: Main Menu opens*  
