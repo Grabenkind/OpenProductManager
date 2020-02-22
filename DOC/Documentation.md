@@ -25,7 +25,7 @@ In this example we have a product with the following properties:
 * Itemnumber:
   * 10010
 * Price:
-  * $ 19.99
+  * $ 19
 * Available quantity:
   * 28  
   
@@ -42,3 +42,9 @@ Now you are asked to enter the properties of the product.
 
 ![Image 4](IMG/4.png)  
 *Image 4: Enter product information*  
+
+After you have entered and confirmed all information, the product and its properties are stored in a database.
+The database is stored in the main folder under the name "products.db".
+
+![Image 5](IMG/5.png)  
+*Image 5: "products.db" location*  
