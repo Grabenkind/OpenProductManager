@@ -48,3 +48,9 @@ The database is stored in the main folder under the name "products.db".
 
 ![Image 5](IMG/5.png)  
 *Image 5: "products.db" location*  
+
+If everything went well, the product should now be saved in the database.  
+To test this you can check the file with DB Browser (https://sqlitebrowser.org/).  
+
+![Image 6](IMG/6.png)  
+*Image 6: View product in database*
