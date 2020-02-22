@@ -29,8 +29,8 @@ In this example we have a product with the following properties:
 * Available quantity:
   * 28  
   
-To add a new product, you must enter the product management.
-For this purpose the letter "p" (without quotation marks) must be entered in the main menu and confirmed with the Enter key.
+To add a new product, you must enter the product management.  
+For this purpose the letter "p" (without quotation marks) must be entered in the main menu and confirmed with the Enter key.  
 Now the product management menu should be open. *(Image 3)*  
 
 ![Image 3](IMG/3.png)  
