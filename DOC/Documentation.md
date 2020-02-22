@@ -1,6 +1,7 @@
 # Table of contents
-###### First Steps
-###### Add a Product
+1. First Steps
+2. Product Management  
+   2.1 Add a Product
 
 # First Steps
 Open OPM.py to run Open Product Manager.  
