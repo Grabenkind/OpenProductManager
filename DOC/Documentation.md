@@ -1,6 +1,7 @@
 # Documentation
+1. First Steps
 
-### First Steps
+# First Steps
 Open OPM.py to run Open Product Manager.  
 After OPM has opened, a login prompt appears. *(Image 1)*  
 
@@ -16,3 +17,21 @@ If the login was successful, you should now see the main menu. *(Image 2)*
 
 ![Image 2](IMG/2.png)  
 *Image 2: Main Menu opens*  
+
+# Add a Product
+In this example we have a product with the following properties:
+* Name:
+  * Silver spoon (10pkg) from WMF
+* Itemnumber:
+  * 10010
+* Price:
+  * $ 19.99
+* Available quantity:
+  * 28  
+  
+To add a new product, we must enter the product management.
+For this purpose the letter "p" (without quotation marks) must be entered in the main menu and confirmed with the Enter key.
+Now the product management menu should be open. *(Image 3)*  
+
+![Image 3](IMG/3.png)  
+*Image 3: Product Management Menu opens*  
