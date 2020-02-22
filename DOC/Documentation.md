@@ -53,4 +53,4 @@ If everything went well, the product should now be saved in the database.
 To test this you can check the file with DB Browser (https://sqlitebrowser.org/).  
 
 ![Image 6](IMG/6.png)  
-*Image 6: View product in database*
+*Image 6: View product from database*
