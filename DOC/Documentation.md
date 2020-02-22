@@ -1,5 +1,3 @@
-# Documentation
-
 # Table of contents
 ###### First Steps
 
