@@ -79,5 +79,5 @@ Confirm your entry with the Enter key.
 If everything went well, the product should now be deleted from the database.  
 To test this you can check the "products.db" file with DB Browser (https://sqlitebrowser.org/).
 
-![Image 7](IMG/7.png)  
-*Image 7: Product is no longer in the database*  
+![Image 8](IMG/8.png)  
+*Image 8: Product is no longer in the database*  
