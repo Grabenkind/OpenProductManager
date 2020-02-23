@@ -26,7 +26,9 @@ If the login was successful, you should now see the main menu. *(Image 2)*
 # 2.1 Add a Product
 In this example there is a product with the following properties:
 * Name:
-  * Silver spoon (10pkg) from WMF
+  * Silver spoon (10pkg)
+* Brand:
+  * WMF
 * Itemnumber:
   * 10010
 * Price:
