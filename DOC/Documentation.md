@@ -34,7 +34,7 @@ In this example there is a product with the following properties:
 * Available quantity:
   * 28  
   
-To add a new product, you must enter the product management.  
+First you must enter the product management.  
 For this purpose the letter "p" (without quotation marks) must be entered in the main menu and confirmed with the Enter key.  
 Now the product management menu should be open. *(Image 3)*  
 
@@ -62,7 +62,7 @@ To test this you can check the file with DB Browser (https://sqlitebrowser.org/)
 
 # 2.2 Delete a Product
 
-To add a new product, you must enter the product management.  
+First you must enter the product management.  
 For this purpose the letter "p" (without quotation marks) must be entered in the main menu and confirmed with the Enter key.  
 Now the product management menu should be open. *(Image 3)*  
 
