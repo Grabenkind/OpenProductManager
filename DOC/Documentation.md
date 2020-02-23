@@ -2,6 +2,7 @@
 1. First Steps
 2. Product Management  
    2.1 Add a Product
+   2.2 Delete a Product
 
 # 1. First Steps
 Open OPM.py to run Open Product Manager.  
@@ -18,12 +19,12 @@ Now you are asked to enter a password.
 If the login was successful, you should now see the main menu. *(Image 2)*  
 
 ![Image 2](IMG/2.png)  
-*Image 2: Main Menu opens*  
+*Image 2: Main menu opens*  
 
 # 2. Product Management
 
 # 2.1 Add a Product
-In this example we have a product with the following properties:
+In this example there is a product with the following properties:
 * Name:
   * Silver spoon (10pkg) from WMF
 * Itemnumber:
@@ -38,7 +39,7 @@ For this purpose the letter "p" (without quotation marks) must be entered in the
 Now the product management menu should be open. *(Image 3)*  
 
 ![Image 3](IMG/3.png)  
-*Image 3: Product Management Menu opens*  
+*Image 3: Product management menu opens*  
 
 to add a product, enter "add" (without quotation marks) and confirm with the Enter key.  
 Now you are asked to enter the properties of the product.  
@@ -57,4 +58,26 @@ If everything went well, the product should now be saved in the database.
 To test this you can check the file with DB Browser (https://sqlitebrowser.org/).  
 
 ![Image 6](IMG/6.png)  
-*Image 6: View product from database*
+*Image 6: View product from database*  
+
+# 2.2 Delete a Product
+
+To add a new product, you must enter the product management.  
+For this purpose the letter "p" (without quotation marks) must be entered in the main menu and confirmed with the Enter key.  
+Now the product management menu should be open. *(Image 3)*  
+
+![Image 3](IMG/3.png)  
+*Image 3: Product management menu opens*  
+
+To delete a product, enter "del" (without quotation marks) and confirm with the Enter key.  
+Now you will be asked to enter the item number of the product you want to delete.  
+Confirm your entry with the Enter key.  
+
+![Image 7](IMG/7.png)  
+*Image 7: Delete a product by item number* 
+
+If everything went well, the product should now be deleted from the database.  
+To test this you can check the "products.db" file with DB Browser (https://sqlitebrowser.org/).
+
+![Image 7](IMG/7.png)  
+*Image 7: Product is no longer in the database*  
