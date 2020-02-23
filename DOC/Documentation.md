@@ -11,7 +11,7 @@ After OPM has opened, a login prompt appears. *(Image 1)*
 ![Image 1](IMG/1.png)  
 *Image 1: Login prompt opens*  
 
-The user name must be entered here and can be confirmed with the Enter key.  
+The username must be entered here and can be confirmed with the Enter key.  
 *By default the username is root*  
 Now you are asked to enter a password.  
 *By default the password is !root*
