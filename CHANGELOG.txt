@@ -1,0 +1,6 @@
+# Patch 1.1.0
+
+New: The brand of a product can now be specified in the product properties.
+
+Fixed: In main menu "Increase product amount" was changed to "Increase product quantity".
+Fixed: In main menu "Decrease product amount" was changed to "Decrease product quantity".
