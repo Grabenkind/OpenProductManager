@@ -3,7 +3,7 @@
     Author: Steven Müller (Grabenkind)
     Date created: 2/6/2020
     Date last modified: 2/22/2020
-    Program version: 1.1.0
+    Program version: 1.2.0
     Python Version: 3.8.1
 """
 
