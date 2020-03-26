@@ -1,9 +1,11 @@
+# add a log.txt with login times
+
 """
     File name: OPM.py
     Author: Steven Müller (Grabenkind)
     Date created: 2/6/2020
-    Date last modified: 2/23/2020
-    Program version: 1.1.0
+    Date last modified: 3/26/2020
+    Program version: 1.2.0
     Python Version: 3.8.1
 """
 
@@ -18,16 +20,23 @@ clear = lambda: os.system('cls')
 def main_menu():
     clear()
     print("------------- [ MAIN MENU ] ------------")
-    print("| + - Increase product quantity        |")
-    print("| - - Decrease product quantity        |")
+    print("| \u001b[32m+\u001b[0m - \u001b[32mIncrease product quantity\u001b[0m        |")
+    print("| \u001b[31m-\u001b[0m - \u001b[31mDecrease product quantity\u001b[0m        |")
     print("| p - product management               |")
     print("| u - user management                  |")
     print("| exit - exit program                  |")
     print("----------------------------------------")
 
 clear()
+
+# START
 # if theres no user, create "root" user
 opm_user.root()
+
+# create log Folder
+if not os.path.exists('log'):
+    os.mkdir('log')
+
 # open login
 opm_login.login_request()
 
@@ -35,125 +44,75 @@ while True:
     try:
         # open Main Menu
         main_menu()
-        # enter a command from the Main Menu List
         inpt = str(input("> "))
 
-        # execute command +
+        # Increase product quantity
         if inpt == "+":
-            # increase the quantity of a product
             opm_product.product_increase()
-        
-        # execute command -
+
+        # Decrease product quantity
         elif inpt == "-":
-            # decrease the quantity of a product
             opm.product.product_decrease()
         
-        # execute command p
+        # open product menu
         elif inpt == "p":
-            # open Product Menu
             opm_product.product_menu()
-            # enter a command from the Product Menu List
             inpt = str(input("> "))
-            # execute command add
             if inpt == "add":
-                # add a new product
                 opm_product.product_add()
-            # execute command del
             elif inpt == "del":
-                # delete a product
                 opm_product.product_del()
-            # execute command edit
             elif inpt == "edit":
-                # open Product Edit Menu
                 opm_product.product_edit_menu()
-                # enter a command from the Product Edit Menu List
                 inpt = str(input("> "))
-                # execute command n
                 if inpt == "n":
-                    # edit name of a product
                     opm_product.product_edit_name()
-                # execute command b
                 elif inpt == "b":
-                    # edit brand of a product
                     opm_product.product_edit_brand()
-                # execute command i
                 elif inpt == "i":
-                    # edit itemnumber of a product
                     opm_product.product_edit_itemno()
-                # execute command p
                 elif inpt == "p":
-                    # edit price of a product
                     opm_product.product_edit_price()
-                # execute command back
                 elif inpt == "menu":
-                    # open Product Management
                     opm_product.product_menu()
-                # execute command exit
                 elif inpt == "exit":
                     clear()
-                    # exit
                     os._exit(1)
-            # execute command back
             elif inpt == "menu":
-                # open Main Menu
                 main_menu()
-            # execute command exit
             elif inpt == "exit":
                 clear()
-                # exit
                 os._exit(1)
 
-        # execute command u
+        # open user menu
         elif inpt == "u":
-            # open User Menu
             opm_user.user_menu()
-            # enter a command from the User Menu List
             inpt = str(input("> "))
-            # execute command add
             if inpt == "add":
-                # add a new user
                 opm_user.user_add()
-            # execute command del
             elif inpt == "del":
-                # delete a user
                 opm_user.user_add()
-            # execute command edit
             elif inpt == "edit":
-                # open User Edit Menu
                 opm_user.user_edit_menu()
-                # enter a command from the User Edit Menu List
                 inpt = str(input("> "))
-                # execute command n
                 if inpt == "n":
-                    # edit username
                     opm_user.user_edit_name()
-                # execute command p
                 elif inpt == "p":
-                    # edit password
                     opm_user.user_edit_password()
-                        # execute command back
                 elif inpt == "menu":
-                    # open User Menu
                     opm_user.user_menu()
-                # execute command exit
                 elif inpt == "exit":
                     clear()
-                    # exit
                     os._exit(1)
-            # execute command back
             elif inpt == "menu":
-                # open Main Menu
                 main_menu()
-            # execute command exit
             elif inpt == "exit":
                 clear()
-                # exit
                 os._exit(1)
 
-        # execute command x
+        # exit program
         elif inpt == "exit":
             clear()
-            # exit
             os._exit(1)
 
     except:
