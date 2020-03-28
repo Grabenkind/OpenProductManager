@@ -1,5 +1,3 @@
-# add a log.txt with login times
-
 """
     File name: OPM.py
     Author: Steven Müller (Grabenkind)
